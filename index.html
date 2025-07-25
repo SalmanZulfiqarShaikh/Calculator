@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simple Calculator</title>
+  <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2021/10/05/21/46/math-6683827_1280.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="content">
   <div class="calculator">
-    <input type="text" class="display" disabled />
-    <div class="buttons">
+    <input type="text" class="display" id="display" disabled />
+    <div class="buttons" id="buttons">
       <button class="button C">C</button>
       <button class="button del">DEL</button>
       <button class="button exp">%</button>
@@ -30,6 +32,8 @@
       <button class="button">.</button>
       <button class="button equalsto">=</button>
     </div>
+  </div>
+  <p class="credits">Made by Salman with ❤️</p>
   </div>
   <script src="script.js"></script>
 </body>
